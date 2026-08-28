@@ -1,0 +1,12 @@
+[project]
+name = "snowflake"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+  "ipykernel>=6", # enables the VS Code / Jupyter kernel picker
+  "python-dotenv>=1.2.3",
+  "snowflake-connector-python>=4.7.2",
+]
+
+[tool.uv]
+package = false # a plain dependency environment, not an installable package
